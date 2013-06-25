@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			中南大学网络教育学院毕业论文指导
+		</title>
+		<link href="favicon.ico" type="image/x-icon" rel="icon" /><link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="glyphicons/css/glyphicons.css" />
+		<link rel="stylesheet" type="text/css" href="http://lib.sinaapp.com/js/bootstrap/2.3.1/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-mod.css" />
+
+		<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.form.min.js"></script>
+		<script type="text/javascript" src="http://lib.sinaapp.com/js/bootstrap/2.3.1/js/bootstrap.min.js"></script>
+
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="/js/html5shiv.js"></script>
+		<![endif]-->
+		<style type="text/css">
+
+    </style>
+    <script>
+      $(function(){
+          $("#static").modal();
+                
+ 
+          $('#myModal').on('show', function () {
+              alert("show")
+          })
+          $('#myModal').on('shown', function () {
+              alert("shown")
+          })
+          $('#myModal').on('hide', function () {
+              alert("hide")
+          })
+          $('#myModal').on('hidden', function () {
+              alert("hidden")
+          })
+      })
+  	</script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Button to trigger modal -->
+			<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+			 
+			<!-- Modal -->
+			<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			    <h3 id="myModalLabel">Modal header</h3>
+			  </div>
+			  <div class="modal-body">
+			    <p>One fine body…</p>
+			  </div>
+			  <div class="modal-footer">
+			    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			    <button class="btn btn-primary">Save changes</button>
+			  </div>
+			</div>
+	    <hr>
+			<div class="footer">
+				<p class="font11">&copy; Company 2013</p>
+			</div>
+		</div><!-- /container -->
+	</body>
+</html>
+

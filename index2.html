@@ -13,19 +13,12 @@
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.form.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap-transition.js"></script>
-		<script type="text/javascript" src="js/bootstrap-modal.js"></script>
-		<script type="text/javascript" src="js/bootstrap-button.js"></script>
 		<script type="text/javascript" src="js/app.common.js"></script>
 		<script type="text/javascript" src="js/holder.js"></script>
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
 			<script type="text/javascript" src="/js/html5shiv.js"></script>
 		<![endif]-->
-		<!--[if lte IE 6]>
-			<link rel="stylesheet" type="text/css" href="ie6/bootstrap/css/bootstrap-ie6.css">
-			<link rel="stylesheet" type="text/css" href="ie6/bootstrap/css/ie.css">
-  	<![endif]-->
 		<style type="text/css">
       body {
         padding-top: 0;
@@ -33,36 +26,16 @@
         background-color: #385596;
       }
       #main {
-				background-color: #fff;
-      }
-      #bottom-nav {
-      	margin-top: 0px;
-      	margin-bottom: -30px;
+      	padding: 10px;
+        margin: 0 auto;
+        max-width: 1000px;
+      	background-color: #fff;
       }
 			.container {
-				padding: 10px;
+				/*padding: 10px;*/
         margin: 0 auto;
         max-width: 1000px;
 				/*background-color: #fff;*/
-			}
-			.breadcrumb {
-				margin-bottom: 0;
-				background-color: #fff;
-			}
-			.well {
-				margin: 0;
-			}
-			.center-info {
-				border:5px solid #fff1e1;
-				padding-left: 10px;
-				padding-right: 10px;
-				padding-bottom: 10px;
-			}
-			.navbar-header {
-				margin-top: 10px;
-			}
-			.thumbnail {
-				padding-right: 0px;
 			}
     </style>
 	</head>
@@ -80,7 +53,7 @@
 						</form>
 					</div>
 				</div>
-				<div id="bottom-nav" class="row-fluid">
+				<div class="row-fluid">
 					<ul class="nav pull-right inline">
             <li class=""><a href="#"><strong>首页</strong></a></li>
             <li>|</li>
@@ -93,68 +66,49 @@
         </div>
 			</div>
 			<div class="">
-				<ul class="breadcrumb">
-				  <li><a href="#">学习中心</a> <span class="divider">/</span></li>
-				  <li><a href="#">湖南</a> <span class="divider">/</span></li>
-				  <li class="active">网院直属学习中心（网络学院）</li>
-				</ul>
+				学习中心 > 湖南 > 网院直属学习中心(网络学院)
 			</div>
-			<div class="row-fluid">
-				<div id="content" class="span8">
-					<div class="center-info">
-						<div class="center-name">
-							<h3>网院直属学习中心（网络学院）</h3>
+			<div class="main row-fluid">
+				<div id="content" class="span8 well">
+					<div>
+						<h3>网院直属学习中心(网络学院)</h3>
+					</div>
+					<div class="row-fluid">
+						<div class="span6">
+							<img data-src="holder.js/300x200/#00f:#fff" alt="">
+						</div>
+						<div class="span6">
+							<table class="table-condensed">
+								<tr><td width="60px"><strong>地址</strong></td><td>中南大学新校区网络外语楼</td></tr>
+								<tr><td width="60px"><strong>邮编</strong></td><td>410083</td></tr>
+								<tr><td width="60px"><strong>电话</strong></td><td>0731-88660111（张丽丽）</td></tr>
+								<tr><td width="60px"><strong>Email</strong></td><td>x-cne9@mail.csu.edu.cn</td></tr>
+								<tr><td></td><td><button class="btn" type="button">我要报名</button></td></tr>
+							</table>
+						</div>
+					</div>
+					<div class="">
+						<div>
+							<h4><a href="#"><span>学习中心环境</span></a> | <a href="#"><span>学习中心风采</span></a></h4>
 						</div>
 						<div class="row-fluid">
-							<div class="span6 thumbnail">
-								<img src="img/新校区网络楼.jpg" width="300" height="200" alt=""/>
+							<div class="span3">
+								<img data-src="holder.js/150x100/#00f:#fff" alt="">
 							</div>
-							<div class="span6 pull-right">
-								<table class="table-condensed">
-									<tr><td width="50px"><span>地址</span></td><td>中南大学新校区网络外语楼</td></tr>
-									<tr><td width="50px"><span>邮编</span></td><td>410083</td></tr>
-									<tr><td width="50px"><span>联系人</span></td><td>张丽丽</td></tr>
-									<tr><td width="50px"><span>电话</span></td><td>0731-88660111</td></tr>
-									<tr><td width="50px"><span>Email</span></td><td>x-cne9@mail.csu.edu.cn</td></tr>
-								</table>
-								<a href="#" role="button" class="btn">我要报名</a>
-								<a href="#myModal" role="button" class="btn" data-toggle="modal">意见反馈</a>
+							<div class="span3">
+								<img data-src="holder.js/150x100/#00f:#fff" alt="">
+							</div>
+							<div class="span3">
+								<img data-src="holder.js/150x100/#00f:#fff" alt="">
+							</div>
+							<div class="span3">
+								<img data-src="holder.js/150x100/#00f:#fff" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="">
-						<div class="navbar-header">
-							<ul class="nav nav-tabs">
-							  <li class="active">
-							    <a href="#">学习中心环境</a>
-							  </li>
-							  <li><a href="#">学习中心风采</a></li>
-							</ul>
-						</div>
-						<div class="row-fluid">
-							<div class="span3 thumbnail">
-								<img src="img/中南鸟巢全景.jpg" width="150" height="100" alt=""/>
-							</div>
-							<div class="span3 thumbnail">
-								<img src="img/图书馆侧影.jpg" width="150" height="100" alt=""/>
-							</div>
-							<div class="span3 thumbnail">
-								<img src="img/自习室内学子安静学习.jpg" width="150" height="100" alt=""/>
-							</div>
-							<div class="span3 thumbnail">
-								<img src="img/外语网络楼绿树环绕.jpg" width="150" height="100" alt=""/>
-							</div>
-						</div>
-					</div>
-					<div class="">
-						<div class="navbar-header">
-							<ul class="nav nav-tabs">
-							  <li>
-							    <a href="#">学习中心简介</a>
-							  </li>
-							  <li><a href="#">设立专业</a></li>
-							  <li class="active"><a href="#">学生感言</a></li>
-							</ul>
+						<div>
+							<h4><a href="#"><span>学习中心简介</span></a> | <a href="#"><span>设立专业</span></a> | <a href="#"><span>学生感言</span></a></h4>
 						</div>
 						<div>
 							<p>学习中心简介学习中心简介学习中心简介学习中心简介学习中心简介学习中心简介</p>
@@ -167,11 +121,11 @@
 						</div>
 					</div>
 				</div>
-				<div id="sidebar" class="span4 pull-right">
+				<div id="sidebar" class="span4 well">
 					<div class="">
 						<h4>地图位置</h4>
-						<div class="thumbnail">
-							<img src="img/location.jpg" width="290" height="200" alt=""/>
+						<div class="">
+							<img data-src="holder.js/250x200/#00f:#fff" alt="">
 						</div>
 					</div>
 					<div class="">
@@ -184,12 +138,17 @@
 					</div>
 					<div class="">
 						<h4>省内其他学习中心</h4>
-						<ul class="unstyled font12">
-							<li><a href="#">双峰学习中心</a></li>
-							<li><a href="#">耒阳学习中心</a></li>
-							<li><a href="#">长沙学习中心</a></li>
-							<li><a href="#">株洲学习中心</a></li>
-							<li><a href="#">衡阳学习中心</a></li>
+						<table class="table-condensed">
+							<tr class="font12"><td width="120px">双峰学习中心</td><td>耒阳学习中心</td></tr>
+							<tr class="font12"><td>长沙学习中心</td><td>株洲学习中心</td></tr>
+							<tr class="font12"><td>衡阳学习中心</td><td></td></tr>
+						</table>
+						<ul class="unstyled">
+							<li>双峰学习中心</li>
+							<li>耒阳学习中心</li>
+							<li>长沙学习中心</li>
+							<li>株洲学习中心</li>
+							<li>衡阳学习中心</li>
 						</ul>
 					</div>
 				</div>
