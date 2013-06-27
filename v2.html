@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			中南大学网络教育学院校外学习中心
+		</title>
+		<link href="favicon.ico" type="image/x-icon" rel="icon" /><link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="glyphicons/css/glyphicons.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-mod.css" />
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.form.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/holder.js"></script>
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="/js/html5shiv.js"></script>
+		<![endif]-->
+		<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="ie6/bootstrap/css/bootstrap-ie6.css">
+			<link rel="stylesheet" type="text/css" href="ie6/bootstrap/css/ie.css">
+  	<![endif]-->
+		<style type="text/css">
+      body {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #385596;
+      }
+      #main {
+				background-color: #fff;
+      }
+      #bottom-nav {
+      	margin-top: 0px;
+      	margin-bottom: -20px;
+      }
+			.container {
+				padding: 10px;
+        margin: 0 auto;
+        max-width: 1000px;
+				/*background-color: #fff;*/
+			}
+			.breadcrumb {
+				margin-bottom: 0;
+				background-color: #fff;
+			}
+			.header .row-fluid {
+				margin-bottom: -15px;
+			}
+			.header .input-append {
+				position: relative;
+				top: 5px;
+			}
+			.center-info {
+				border:5px solid #fff1e1;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-bottom: 10px;
+			}
+			.navbar-header {
+				margin-top: 15px;
+			}
+			.tabs div {
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			#map-info {
+				position: relative;
+				top: 10px;
+			}
+			#enroll-and-feedback {
+				margin-top: 10px;
+			}
+    </style>
+	</head>
+	<body>
+		<div id="main" class="container">
+			<div class="header">
+				<div class="row-fluid">
+					<div class="pull-left">
+						<a href="#"><img src="img/logo.gif" alt=""></a>
+					</div>
+					<div class="input-append pull-right">
+						<form>
+						  <input class="input-xlarge" id="appendedInputButtons" placeholder="学习中心名称/编码" type="text">
+						  <button class="btn btn-danger" type="button"><i class='icon-white icon-search'></i> 搜索</button>
+						</form>
+					</div>
+				</div>
+				<div id="bottom-nav" class="pull-right row-fluid">
+					<ul class="nav pull-right inline">
+            <li class=""><a href="#"><strong>首页</strong></a></li>
+            <li>|</li>
+            <li class="active"><a href="#"><strong>学习中心</strong></a></li>
+            <li>|</li>
+            <li class=""><a href="#"><strong>管理规定</strong></a></li>
+            <li>|</li>
+            <li><a href="#"><strong>信息平台</strong></a></li>
+            <li></li>
+         	</ul>
+        </div>
+			</div>
+			<div class="">
+				<ul class="breadcrumb">
+				  <li><a href="#">学习中心</a> <span class="divider">/</span></li>
+				  <li><a href="hunan.html">湖南</a> <span class="divider">/</span></li>
+				  <li class="active">网院直属学习中心（网络学院）</li>
+				</ul>
+			</div>
+			<div class="row-fluid">
+				<div id="content" class="span8">
+					<div class="center-info">
+						<div class="center-name inline">
+							<h3>网院直属学习中心（网络学院）&nbsp;<a href="#"><span class="font12">外部链接</span></a></h3>
+						</div>
+						<div class="row-fluid">
+							<div class="span5 thumbnail margin-left5">
+								<img src="img/新校区网络楼.jpg" width="240" height="160" alt=""/>
+							</div>
+							<div class="span6 pull-right">
+								<table class="table-condensed">
+									<tr><td width="50px"><span>单位</span></td><td>中南大学</td></tr>
+									<tr><td width="50px"><span>地址</span></td><td>中南大学新校区网络外语楼</td></tr>
+									<tr><td width="50px"><span>联系人</span></td><td>张丽丽</td></tr>
+									<tr><td width="50px"><span>电话</span></td><td>0731-88660111</td></tr>
+								</table>
+								<div id="enroll-and-feedback" class="offset2">
+									<a href="#" role="button" class="btn">我要报名</a>
+									<a href="#myModal" role="button" class="btn" data-toggle="modal">意见反馈</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="">
+						<div class="navbar-header tabs">
+							<ul class="nav nav-tabs">
+							  <li class="active"><a href="#center-intro">学习中心简介</a></li>
+							  <li class=""><a href="#contact-info">联系人信息</a></li>
+							  <li class=""><a href="#center-notification">学习中心动态</a></li>
+							  <li class=""><a href="#college-major">招生专业</a></li>
+							  <li class=""><a href="#student-remark">学生感言</a></li>
+							</ul>
+							<div id="center-intro" class="">
+								<p class="font12"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>中南大学网络教育学院是学校二级办学机构。2001年元月，经教育部批准，中南大学成为开展现代远程教育试点的院校之一。2001年8月中南大学网络教育学院正式独立设置、运行。学院下设办公室、教学部、技术部和资源建设部四个部门。以省、市电大为骨干中南大学校外学习中心遍布全国23个省、市、自治区。目前学院以本专科学历教育为主，每年分春秋两季招生，实行学分制和弹性学习年限制，学生在规定的学习年限内，修满学分即可毕业。符合毕业要求和学士学位授予条件者，颁发中南大学毕业证书和学士学位证书。</p>
+								<p class="font12"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>学院始终坚持“以在职人员的继续教育为主的办学方向，充分发挥网络教育的优势，为在职人员更新知识、增强技能、提高素质提供良好服务”的定位，牢固树立“在服务中求发展，以有为求有位”的理念，讲规范、讲质量、讲服务、讲实效。学院依托中南大学的优质教学资源，突出学校在有色金属、铁道、医疗等方面的优势，开设有计算机应用、机械电子工程、土木工程、公路工程、交通运输、会计学、工商管理、法学、铁道机车车辆、铁道车辆、护理学、行政管理、电子商务、汉语言文学、药学、采矿工程、安全工程等12个本科专业，15个专科专业。迄今累计培养毕业生9万余人。</p>
+							</div>
+							<div id="contact-info" class="hide">
+								<table class="table table-condensed table-striped table-hover">
+									<thead>
+										<tr class="font12">
+											<th><strong>联系人类型</strong></th>
+											<th><strong>联系人</strong></th>
+											<th><strong>电话</strong></th>
+											<th><strong>Email</strong></th>
+											<th><strong>QQ</strong></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="font12">
+											<td>负责人</td>
+											<td>张丽丽</td>
+											<td>0731-88660111</td>
+											<td>x-cne9@mail.csu.edu.cn</td>
+											<td>12345678</td>
+										</tr>
+										<tr class="font12">
+											<td>教务联系人</td>
+											<td>乐秋红</td>
+											<td>0731-88660111</td>
+											<td>903751398@qq.com</td>
+											<td>12345678</td>
+										</tr>
+										<tr class="font12">
+											<td>班主任</td>
+											<td>夏益才</td>
+											<td>0731-88836623</td>
+											<td>13900738@qq.com</td>
+											<td>12345678</td>
+										</tr>
+										<tr class="font12">
+											<td>负责人</td>
+											<td>张丽丽</td>
+											<td>0731-88660111</td>
+											<td>x-cne9@mail.csu.edu.cn</td>
+											<td>12345678</td>
+										</tr>
+										<tr class="font12">
+											<td>教务联系人</td>
+											<td>乐秋红</td>
+											<td>0731-88660111</td>
+											<td>903751398@qq.com</td>
+											<td>12345678</td>
+										</tr>
+										<tr class="font12">
+											<td>班主任</td>
+											<td>夏益才</td>
+											<td>0731-88836623</td>
+											<td>13900738@qq.com</td>
+											<td>12345678</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div id="center-notification" class="hide">
+								<table class="table table-hover table-condensed">
+								<thead>
+									<tr><td class="font12"><span><a href="#">关于2011年春季及以前入学学生毕业工作安排的意见</a></span></td></tr>
+								</thead>
+			      		<tbody>
+				      		<tr><td class="font12"><span><a href="#">办理毕业手续的有关规定</a></span></td></tr>
+				      		<tr><td class="font12"><span><a href="#">关于印发《中南大学网络教育优秀毕业生评选办法》的通知</a></span></td></tr>
+			      		</tbody>
+			      	</table>
+							</div>
+							<div id="college-major" class="hide">
+								<table class="table table-hover table-condensed">
+								<thead>
+									<tr>
+										<td class="font12" width="40px"><strong>高起专<strong></td>
+										<td class="font12">计算机应用  机械电子工程  铁道车辆  铁道机车车辆  公路工程  土木工程  会计学  铁道交通运输  公路交通运输  电子商务  工商管理  行政管理  法学  汉语言文学  采矿工程</td>
+									</tr>
+								</thead>
+			      		<tbody>
+				      		<tr>
+				      			<td class="font12" width="40px"><strong>专升本<strong></td>
+				      			<td class="font12">计算机科学与技术  土木工程<span class="font11">(建筑工程方向)</span>  土木工程<span class="font11">(铁道工程方向)</span>  土木工程<span class="font11">(公路工程方向)</span>  机械设计制造及其自动化  机械设计制造及其自动化<span class="font11">(机械电子工程方向)</span>  机械设计制造及其自动化<span class="font11">(铁道机车方向)</span>  机械设计制造及其自动化<span class="font11">(铁道车辆方向)</span>  机械设计制造及其自动化<span class="font11">(动车组方向)</span>  工商管理  交通运输<span class="font11">(铁道运输方向)</span>  会计学  交通运输<span class="font11">(公路运输方向)</span>  行政管理  交通运输<span class="font11">(城市轨道交通方向)</span>  法学  汉语言文学  安全工程  物流工程</td>
+				      		</tr>
+			      		</tbody>
+			      	</table>
+							</div>
+							<div id="student-remark" class="hide">
+								<div class="row-fluid">
+									<p class="font12"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>我于2006年1月考入中南大学网络教育学院，进行本科阶段法学专业的学习。在三年的学习过程中，我秉承实事求是的学习态度，以脚踏实地的学习方法，合理安排各科目课程的学习，我不仅通过了所有课程的专业考试，而且取得了很理想成绩，毕业论文也得到老师的好评。学习过程中，我发现网络教育对学员的自觉性要求很高，这也锻炼和提高了自己独立的组织安排能力。学习中心的老师能热情辅导我们的学习，严格组织课程考试，这也在一定成度上提高了自己此段学习经历的质量。虽然我毕业走上社会，但是我不会忘记中南大学网络教育学院对我的培养和老师的教诲，在今后工作生活我将不断的学习与进取，与更多的人分享网络教育带给我们的知识和快乐。</p>
+									<p class="font12 pull-right">——蓝侠&nbsp;&nbsp;&nbsp;&nbsp;</p>
+								</div>
+								<div class="row-fluid">
+									<p class="font12"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>“少年好学，将成大器”。怀着一颗想去学习、想去探知的心，找到中南大学网络教育学院，兼顾工作和学习两不误的机会，选择就读了中南大学护理本科。也实现自己一直以来想圆“大学”梦的愿望。期间获得专业的护理知识和管理经验，还可以更多在网上结交很多志同道合的朋友，交流经验，相互学习，是“性价比”很高的网络教育学习途径。</p>
+									<p class="font12 pull-right">——苟洪娟&nbsp;&nbsp;&nbsp;&nbsp;</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="">
+						<div class="navbar-header tabs">
+							<ul class="nav nav-tabs">
+							  <li class="active">
+							    <a href="#center-environment">学习中心环境</a>
+							  </li>
+							  <li><a href="#center-spirit">学习中心风采</a></li>
+							</ul>
+							<div id="center-environment" class="row-fluid">
+								<div class="span3 thumbnail">
+									<img src="img/中南鸟巢全景.jpg" width="150" height="100" alt=""/>
+								</div>
+								<div class="span3 thumbnail">
+									<img src="img/图书馆侧影.jpg" width="150" height="100" alt=""/>
+								</div>
+								<div class="span3 thumbnail">
+									<img src="img/自习室内学子安静学习.jpg" width="150" height="100" alt=""/>
+								</div>
+								<div class="span3 thumbnail">
+									<img src="img/外语网络楼绿树环绕.jpg" width="150" height="100" alt=""/>
+								</div>
+							</div>
+							<div id="center-spirit" class="row-fluid hide">
+								<div class="span3 thumbnail">
+									<img src="img/20041221175862.jpg" width="150" height="100" alt=""/>
+								</div>
+								<div class="span3 thumbnail">
+									<img src="img/20041221183865.jpg" width="150" height="100" alt=""/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="sidebar" class="span4 pull-right">
+					<div class="">
+						<h4>地图位置</h4>
+						<div class="offset1">
+							<img src="img/location.jpg" width="215" height="215" alt=""/>
+						</div>
+						<div id="map-info" class="row">
+							<div class="offset4">
+								<a href="#">查看全图/交通/停车</a>
+							</div>
+						</div>
+					</div>
+					<hr />
+					<div class="">
+						<h4>省内全部学习中心</h4>
+						<table class="table-condensed">
+							<tr class="font12"><td><a href="#">双峰学习中心</a></td><td><a href="#">耒阳学习中心</a></td></tr>
+							<tr class="font12"><td><a href="#">长沙学习中心</a></td><td><a href="#">株洲学习中心</a></td></tr>
+							<tr class="font12"><td><a href="#">衡阳学习中心</a></td><td><a href="#">湖南医学学习中心</a></td></tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="footer">
+				<p class="font11">&copy; Company 2013</p>
+			</div>
+		</div><!-- /container -->
+		<div id="myModal" class="modal hide fade" style="display: none; ">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">×</button>
+        <h3>意见反馈</h3>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+			  <div class="control-group">
+			    <label class="control-label" for="">姓名</label>
+			    <div class="controls">
+			      <input type="text" id="" placeholder="姓名">
+			    </div>
+			  </div>
+			  <div class="control-group">
+			    <label class="control-label" for="">学习中心</label>
+			    <div class="controls">
+			      <input type="text" id="" placeholder="学习中心名称">
+			    </div>
+			  </div>
+			  <div class="control-group">
+			    <label class="control-label" for="">意见</label>
+			    <div class="controls">
+			      <textarea rows="4" placeholder="请输入您的宝贵意见"></textarea>
+			    </div>
+			  </div>
+			</form>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">关闭</a>
+        <a href="#" class="btn btn-primary">提交</a>
+      </div>
+    </div>
+		<script>
+			$('.tabs li a').hover(function() {
+				$(this).parent('li').addClass("active").siblings('li').removeClass();
+				$($(this).attr("href")).show().siblings('div').hide();
+			});
+		</script>
+	</body>
+</html>
